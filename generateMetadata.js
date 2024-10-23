@@ -3,6 +3,10 @@ const path = require('path');
 
 const metadataFilePath = path.join(__dirname, 'metadata', 'metadata.json');
 
+if (!fs.existsSync(path.dirname(metadataFilePath))){
+    fs.mkdirSync(path.dirname(metadataFilePath, {recursive: true}));
+}
+
 function loadMetadata() {
     try {
         if (fs.existsSync(metadataFilePath)) {
@@ -33,7 +37,7 @@ function generateMetadata(name, description, imageCID, traitType, value) {
         image: `ipfs://${imageCID}`,
         attributes: [
             {
-                trait_Type: traitType,
+                trait_type: traitType,
                 value,
             },
         ],

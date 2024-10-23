@@ -42,5 +42,16 @@
         "value": "valueExample"
       }
     ]
+  },
+  {
+    "name": "Salah",
+    "description": "Salah description",
+    "image": "ipfs://QmWKYiivuuziC2sTjMfWxycjWKH3Mp6yRLNXXgjU9Xp1XZ",
+    "attributes": [
+      {
+        "trait_Type": "traitTypeExample",
+        "value": "valueExample"
+      }
+    ]
   }
 ]
