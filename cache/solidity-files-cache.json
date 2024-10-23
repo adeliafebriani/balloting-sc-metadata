@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/thaddydore/Desktop/ballot_app/contracts/Ballot.sol": {
+      "lastModificationDate": 1721754783038,
+      "contentHash": "0420e2e161b2691f4e50d03ba2b3b64f",
+      "sourceName": "contracts/Ballot.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "Balloting"
+      ]
+    },
+    "/Users/thaddydore/Desktop/ballot_app/contracts/Lock.sol": {
+      "lastModificationDate": 1721754535338,
+      "contentHash": "dacf0d5cb5b45dc83086de5bc1c26c2c",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    }
+  }
+}

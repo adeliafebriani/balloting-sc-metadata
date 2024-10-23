@@ -1,0 +1,22 @@
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 1rem;
+	padding-block: 2rem;
+	padding-inline: 1rem;
+}
+
+.button {
+	color: #fff;
+	padding-inline: 2rem;
+	padding-block: 1rem;
+	background-color: inherit;
+	border: none;
+	outline: 1px solid #fff;
+
+	&:focus {
+		border: none;
+		outline: 1px solid #fff;
+	}
+}
